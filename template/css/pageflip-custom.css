@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+}
+.pageflip-container {
+	padding-top: 1px;
+}
+#stage {
+	background: #444444;
+}
+.left-side,
+.right-side,
+.thumbnail-spread,
+.thumbnail-page {
+	background: #888;
+}
+#pageflip-controls,
+#pagerin {
+	color: rgba(255,255,255,0.5);
+}
+.control-bar-button g,
+.control-bar-pager g {
+	fill: rgba(255,255,255,0.5);
+}
+.control-bar-button:not(.disabled):hover g {
+	fill: #FFAA00;
+}
+#pageflip-controls {
+	background: rgba(68,68,68,0.35);
+}
+.hotspot {
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+}
